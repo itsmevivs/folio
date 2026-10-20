@@ -109,8 +109,8 @@ const projectData = {
   },
   web: {
     number: "PROJECT 02",
-    title: "Web Development Projects",
-    description: "Use this area to showcase real websites and interfaces you have built. Add screenshots, a concise explanation of your role, technologies actually used, and real repository or demo links.",
+    title: "This Is Just a Placeholder",
+    description: "This is an editable placeholder for my another real programming or technical project.",
     tags: ["HTML", "CSS", "JavaScript"]
   },
   other: {
@@ -180,7 +180,7 @@ document.getElementById("contactForm").addEventListener("submit", event => {
     return;
   }
   if (!PORTFOLIO.email || PORTFOLIO.email === "viveromarkangelo@gmail.com") {
-    formNotice.textContent = "Demo form only: update the email value in script.js to enable email composition.";
+    formNotice.textContent = "Demo form only";
     return;
   }
   const subject = encodeURIComponent(`Portfolio inquiry from ${name}`);
